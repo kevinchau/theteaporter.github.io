@@ -478,88 +478,27 @@ a {
   text-align: left;
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  gap: var(--space-lg);
-  align-items: start;
-}
-
-.contact-text {
+.contact-body {
   color: var(--color-chartreuse);
   font-size: 1.05rem;
   line-height: 1.8;
+  max-width: 700px;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-}
-
-.contact-form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-sm);
-}
-
-.contact-form label {
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: var(--color-chartreuse);
-  margin-bottom: 0.25rem;
-  display: block;
-}
-
-.contact-form-field {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 0.75rem 1rem;
-  border: none;
-  border-radius: var(--radius);
-  background: var(--color-white);
-  color: var(--color-text);
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  outline: none;
-  transition: box-shadow var(--transition);
-}
-
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-  color: rgba(46, 49, 5, 0.4);
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  box-shadow: 0 0 0 2px var(--color-chartreuse);
-}
-
-.contact-form textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.contact-form .btn-send {
-  align-self: flex-start;
+.contact-body .btn-send {
+  display: inline-block;
+  margin-top: var(--space-md);
   background-color: var(--color-chartreuse);
   color: var(--color-green);
   font-family: var(--font-body);
   font-weight: 500;
   font-size: 0.95rem;
   padding: 0.75rem 2.5rem;
-  border: none;
   border-radius: var(--radius);
-  cursor: pointer;
   transition: all var(--transition);
 }
 
-.contact-form .btn-send:hover {
+.contact-body .btn-send:hover {
   background-color: #d4dc5e;
   transform: translateY(-2px);
 }
@@ -820,11 +759,6 @@ a.product-card {
     white-space: normal;
   }
 
-  .contact-grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-md);
-  }
-
   .features-grid .feature-card {
     flex: 0 1 100%;
   }
@@ -876,8 +810,5 @@ a.product-card {
     right: 8px;
   }
 
-  .contact-form-row {
-    grid-template-columns: 1fr;
-  }
 }
 
