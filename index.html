@@ -7,7 +7,7 @@
   <meta name="description" content="Discover Taiwanese terroir with our organic tea collection, made with love by our farmers in Nantou.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="images/logo.png" type="image/png">
 </head>
@@ -16,23 +16,20 @@
   <!-- Header -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#" class="logo">
-        <img src="images/logo.png" alt="The Tea Porter" width="60" height="60">
-      </a>
-      <nav class="main-nav">
-        <a href="#hero">Home</a>
-        <a href="#products">Teas</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+      <div class="header-left">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="header-center">
+        <a href="index.html">
+          <img src="images/logo.png" alt="The Tea Porter" width="80" height="80">
+          <span class="brand-text">The Tea Porter</span>
+        </a>
+      </div>
+      <div class="header-right">
         <a href="https://www.instagram.com/theteaporter/" target="_blank" rel="noopener" aria-label="Instagram">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
         </a>
-      </nav>
-      <button class="mobile-menu-btn" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      </div>
     </div>
   </header>
 
@@ -40,9 +37,9 @@
   <section class="carousel-section">
     <div class="carousel">
       <div class="carousel-track">
-        <div class="carousel-slide"><img src="images/carousel-1.jpeg" alt="Tea farm landscape" loading="lazy"></div>
-        <div class="carousel-slide"><img src="images/carousel-2.jpg" alt="Tea farm rows" loading="lazy"></div>
-        <div class="carousel-slide"><img src="images/feature-sustainable.jpg" alt="Sustainable tea farming" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/carousel-1.jpeg" alt="Tea farm landscape"></div>
+        <div class="carousel-slide"><img src="images/carousel-2.jpg" alt="Tea farm rows"></div>
+        <div class="carousel-slide"><img src="images/feature-sustainable.jpg" alt="Sustainable tea farming"></div>
         <div class="carousel-slide"><img src="images/carousel-4.jpg" alt="Tea field vista" loading="lazy"></div>
         <div class="carousel-slide"><img src="images/carousel-5.jpg" alt="Mountain tea plantation" loading="lazy"></div>
         <div class="carousel-slide"><img src="images/carousel-6.jpeg" alt="Tea processing" loading="lazy"></div>
@@ -59,16 +56,13 @@
   <!-- Hero -->
   <section id="hero" class="hero">
     <div class="container">
-      <h1 class="hero-heading fade-in">Discover Taiwanese Terroir</h1>
-      <p class="hero-sub fade-in">With our organic tea collection, made with love by our farmers in Nantou.</p>
-      <a href="#products" class="btn btn-primary fade-in">Explore Our Teas</a>
+      <h1 class="hero-heading fade-in">Discover Taiwanese Terroir With Our Organic Tea Collection, Made With Love By Our Farmers In Nantou</h1>
     </div>
   </section>
 
   <!-- Products -->
   <section id="products" class="products">
     <div class="container">
-      <h2 class="section-heading fade-in">Our Collection</h2>
       <div class="product-grid">
         <a href="classic-green-tea.html" class="product-card fade-in">
           <div class="product-img-wrap">
@@ -76,7 +70,7 @@
           </div>
           <div class="product-info">
             <h3>Classic Green Tea</h3>
-            <p>10 sachets</p>
+            <p> 10 sachets</p>
           </div>
         </a>
         <a href="jinxuan-oolong-tea.html" class="product-card fade-in">
@@ -85,7 +79,7 @@
           </div>
           <div class="product-info">
             <h3>Jinxuan Oolong Tea</h3>
-            <p>10 sachets</p>
+            <p> 10 sachets</p>
           </div>
         </a>
         <a href="forest-black-tea.html" class="product-card fade-in">
@@ -94,7 +88,7 @@
           </div>
           <div class="product-info">
             <h3>Forest Black Tea</h3>
-            <p>10 sachets</p>
+            <p> 10 sachets</p>
           </div>
         </a>
       </div>
@@ -104,8 +98,7 @@
   <!-- Location -->
   <section id="location" class="location">
     <div class="container fade-in">
-      <h2 class="section-heading">Find Us</h2>
-      <p class="location-text">The tea collection is now available at <strong>T55 P&acirc;tisserie</strong> in Bothell, WA.</p>
+      <p class="location-text">The tea collection is now available at <a href="https://www.t55patisserie.com/" target="_blank" rel="noopener">T55 P&acirc;tisserie</a> in Bothell, WA.</p>
       <div class="map-embed">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2681.8!2d-122.2058!3d47.7623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549012a641f24389%3A0x6e1f0e3c73f34b7d!2sT55%20P%C3%A2tisserie!5e0!3m2!1sen!2sus!4v1700000000000"
@@ -126,13 +119,12 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-text fade-in">
-          <h2 class="section-heading">About Us</h2>
+          <h2 class="section-heading">About us</h2>
+        </div>
+        <div class="about-body fade-in">
           <p>The Tea Porter started with the intent to bring artisanal and organic Taiwanese tea to everyone's cup.</p>
           <p>Our goal is to introduce people to lesser-known Taiwanese tea varietals and show that well-crafted tea has natural sweetness and pleasant flavor profiles without the addition of artificial flavors, sweeteners, or fruits.</p>
           <p>Our tea is grown and processed in certified organic, small-scale family tea farms in Taiwan. We, together with our tea farmers and tea masters, proudly share our love for tea and present Taiwanese terroir to you through a delicious cup of tea.</p>
-        </div>
-        <div class="about-image fade-in">
-          <img src="images/feature-farm.jpg" alt="Tea farm in Nantou, Taiwan" loading="lazy">
         </div>
       </div>
     </div>
@@ -141,7 +133,6 @@
   <!-- Features -->
   <section id="features" class="features">
     <div class="container">
-      <h2 class="section-heading fade-in">Why The Tea Porter</h2>
       <div class="features-grid">
         <div class="feature-card fade-in">
           <div class="feature-img-wrap">
@@ -194,54 +185,53 @@
 
   <!-- Contact -->
   <section id="contact" class="contact">
-    <div class="container fade-in">
-      <h2 class="section-heading">We Would Love to Connect With You</h2>
-      <p class="contact-text">To schedule a tea tasting in the Seattle area or inquire about wholesale opportunities in the US, reach out to us! Have a special request? Let us know if you're seeking custom tea products for your clients, customers, colleagues, family, or friends. We can tailor tea gifts for any occasion: holidays, corporate events, weddings, birthdays, and more!</p>
-      <a href="mailto:hello@theteaporter.com" class="btn btn-primary">Get in Touch</a>
+    <div class="container">
+      <h2 class="section-heading fade-in">We Would Love to Connect With You</h2>
+      <div class="contact-grid">
+        <div class="contact-text fade-in">
+          <p>To schedule a tea tasting in the Seattle area or inquire about wholesale opportunities in the US, reach out to us! Have a special request? Let us know if you're seeking custom tea products for your clients, customers, colleagues, family, or friends. We can tailor tea gifts for any occasion: holidays, corporate events, weddings, birthdays, and more!</p>
+        </div>
+        <form class="contact-form fade-in" action="https://formspree.io/f/placeholder" method="POST">
+          <div class="contact-form-row">
+            <div class="contact-form-field">
+              <label for="first_name">First Name (required)</label>
+              <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="contact-form-field">
+              <label for="last_name">Last Name (required)</label>
+              <input type="text" id="last_name" name="last_name" required>
+            </div>
+          </div>
+          <div class="contact-form-field">
+            <label for="email">Email (required)</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="contact-form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-send">Send</button>
+        </form>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="images/logo.png" alt="The Tea Porter" width="40" height="40">
-        <span>The Tea Porter</span>
+      <div class="footer-left">
+        <span class="footer-brand-name">The Tea Porter</span>
+        <span class="footer-email"><a href="mailto:hello@theteaporter.com">hello@theteaporter.com</a></span>
       </div>
-      <div class="footer-links">
-        <a href="mailto:hello@theteaporter.com">hello@theteaporter.com</a>
-        <a href="https://www.instagram.com/theteaporter/" target="_blank" rel="noopener">Instagram</a>
+      <div class="footer-right">
+        <a href="https://www.instagram.com/theteaporter/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
       </div>
-      <p class="footer-copy">&copy; 2026 The Tea Porter. All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    // Smooth scroll for nav links
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', e => {
-        const target = document.querySelector(a.getAttribute('href'));
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
-    });
-
-    // Mobile menu toggle
-    const menuBtn = document.querySelector('.mobile-menu-btn');
-    const nav = document.querySelector('.main-nav');
-    menuBtn.addEventListener('click', () => {
-      menuBtn.classList.toggle('active');
-      nav.classList.toggle('open');
-    });
-    nav.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        menuBtn.classList.remove('active');
-        nav.classList.remove('open');
-      });
-    });
-
     // Fade-in on scroll
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -267,6 +257,7 @@
 
       const totalSlides = track.children.length;
       let currentIndex = slideCount; // Start at original first slide
+      let isAnimating = false;
 
       function getVisibleCount() {
         if (window.innerWidth <= 640) return 1;
@@ -302,6 +293,8 @@
       }
 
       function goTo(index) {
+        if (isAnimating) return;
+        isAnimating = true;
         currentIndex = index;
         jumpTo(currentIndex, true);
       }
@@ -318,6 +311,7 @@
           currentIndex += slideCount;
           jumpTo(currentIndex, false);
         }
+        isAnimating = false;
       });
 
       document.querySelector('.carousel-arrow-left').addEventListener('click', prev);

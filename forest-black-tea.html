@@ -7,7 +7,7 @@
   <meta name="description" content="JinXuan varietal black tea, certified organic from Nantou, Taiwan. Tasting notes of brown sugar and sweet potato.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="images/logo.png" type="image/png">
 </head>
@@ -16,72 +16,60 @@
   <!-- Header -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="The Tea Porter" width="60" height="60">
-      </a>
-      <nav class="main-nav">
+      <div class="header-left">
         <a href="index.html">Home</a>
-        <a href="index.html#products">Teas</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="header-center">
+        <a href="index.html">
+          <img src="images/logo.png" alt="The Tea Porter" width="80" height="80">
+          <span class="brand-text">The Tea Porter</span>
+        </a>
+      </div>
+      <div class="header-right">
         <a href="https://www.instagram.com/theteaporter/" target="_blank" rel="noopener" aria-label="Instagram">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
         </a>
-      </nav>
-      <button class="mobile-menu-btn" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      </div>
     </div>
   </header>
 
   <!-- Product Detail -->
   <main class="product-detail">
     <div class="container">
-      <a href="index.html#products" class="back-link">&larr; Back to Collection</a>
-
       <div class="product-detail-grid">
         <div class="product-detail-image">
           <img src="images/black-tea-detail.jpg" alt="Forest Black Tea">
         </div>
         <div class="product-detail-content">
           <h1 class="product-detail-title">Forest Black Tea</h1>
-          <p class="product-detail-subtitle">10 sachets</p>
+
+          <div class="tea-info-plain">
+            <dl>
+              <div class="info-row"><dt>Tea Varietal:</dt><dd>JinXuan (&#37329;&#33841;)</dd></div>
+              <div class="info-row"><dt>Harvest Period:</dt><dd>September</dd></div>
+              <div class="info-row"><dt>Oxidation:</dt><dd>~100%</dd></div>
+              <div class="info-row"><dt>Certified Organic:</dt><dd>Tse-Xin Organic</dd></div>
+            </dl>
+          </div>
 
           <div class="accordion">
             <div class="accordion-item">
               <button class="accordion-header" aria-expanded="true">
-                <span>Tea Information</span>
-                <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                <span>Brewing Instruction</span>
+                <span class="accordion-icon"></span>
               </button>
               <div class="accordion-body open">
                 <dl class="info-list">
-                  <div class="info-row"><dt>Varietal</dt><dd>JinXuan</dd></div>
-                  <div class="info-row"><dt>Harvest</dt><dd>September</dd></div>
-                  <div class="info-row"><dt>Oxidation</dt><dd>~100%</dd></div>
-                  <div class="info-row"><dt>Certification</dt><dd>Tse-Xin Organic</dd></div>
+                  <div class="info-row"><dt>Mug Style:</dt><dd>194&deg;F / 10oz / 3mins</dd></div>
+                  <div class="info-row"><dt>Gongfu Style:</dt><dd>194&deg;F / 3oz / Flash</dd></div>
                 </dl>
               </div>
             </div>
 
             <div class="accordion-item">
               <button class="accordion-header" aria-expanded="false">
-                <span>Brewing Instructions</span>
-                <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-              </button>
-              <div class="accordion-body">
-                <dl class="info-list">
-                  <div class="info-row"><dt>Temperature</dt><dd>194&deg;F / 90&deg;C</dd></div>
-                  <div class="info-row"><dt>Method</dt><dd>Place one sachet in a cup, pour hot water, and steep for 3-5 minutes. Can be re-steeped multiple times.</dd></div>
-                </dl>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <button class="accordion-header" aria-expanded="false">
-                <span>Tasting Notes</span>
-                <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                <span>Tasting Note</span>
+                <span class="accordion-icon"></span>
               </button>
               <div class="accordion-body">
                 <p class="tasting-notes">Brown Sugar &middot; Sweet Potato</p>
@@ -98,33 +86,19 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="images/logo.png" alt="The Tea Porter" width="40" height="40">
-        <span>The Tea Porter</span>
+      <div class="footer-left">
+        <span class="footer-brand-name">The Tea Porter</span>
+        <span class="footer-email"><a href="mailto:hello@theteaporter.com">hello@theteaporter.com</a></span>
       </div>
-      <div class="footer-links">
-        <a href="mailto:hello@theteaporter.com">hello@theteaporter.com</a>
-        <a href="https://www.instagram.com/theteaporter/" target="_blank" rel="noopener">Instagram</a>
+      <div class="footer-right">
+        <a href="https://www.instagram.com/theteaporter/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
       </div>
-      <p class="footer-copy">&copy; 2026 The Tea Porter. All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    // Mobile menu toggle
-    const menuBtn = document.querySelector('.mobile-menu-btn');
-    const nav = document.querySelector('.main-nav');
-    menuBtn.addEventListener('click', () => {
-      menuBtn.classList.toggle('active');
-      nav.classList.toggle('open');
-    });
-    nav.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        menuBtn.classList.remove('active');
-        nav.classList.remove('open');
-      });
-    });
-
     // Accordion
     document.querySelectorAll('.accordion-header').forEach(btn => {
       btn.addEventListener('click', () => {
