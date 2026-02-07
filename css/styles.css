@@ -702,9 +702,9 @@ a {
 
 .tasting-notes {
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: 1.05rem;
   font-weight: 500;
-  color: var(--color-brown);
+  color: var(--color-green);
   margin-bottom: var(--space-sm);
 }
 
